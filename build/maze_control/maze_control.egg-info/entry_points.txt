@@ -1,0 +1,8 @@
+[console_scripts]
+lidar_process = maze_control.lidar_process:main
+obstacle_avoidance = maze_control.obstacle_avoidance:main
+open_loop_control = maze_control.open_loop_control:main
+point_control = maze_control.point_control:main
+wall_follow = maze_control.wall_follow:main
+wall_follow_optimized = maze_control.wall_follow_optimized:main
+

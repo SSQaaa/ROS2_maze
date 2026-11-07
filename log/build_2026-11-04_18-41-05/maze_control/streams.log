@@ -1,0 +1,21 @@
+[1.063s] Invoking command in '/home/ssq/ros2maze_ws/src/maze_control': PYTHONPATH=/home/ssq/ros2maze_ws/build/maze_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_control build --build-base /home/ssq/ros2maze_ws/build/maze_control/build install --record /home/ssq/ros2maze_ws/build/maze_control/install.log --install-scripts $base/lib/maze_control --single-version-externally-managed install_data
+[1.307s] running egg_info
+[1.308s] writing ../../build/maze_control/maze_control.egg-info/PKG-INFO
+[1.308s] writing dependency_links to ../../build/maze_control/maze_control.egg-info/dependency_links.txt
+[1.309s] writing entry points to ../../build/maze_control/maze_control.egg-info/entry_points.txt
+[1.309s] writing requirements to ../../build/maze_control/maze_control.egg-info/requires.txt
+[1.310s] writing top-level names to ../../build/maze_control/maze_control.egg-info/top_level.txt
+[1.313s] reading manifest file '../../build/maze_control/maze_control.egg-info/SOURCES.txt'
+[1.315s] writing manifest file '../../build/maze_control/maze_control.egg-info/SOURCES.txt'
+[1.316s] running build
+[1.316s] running build_py
+[1.316s] running install
+[1.317s] running install_lib
+[1.317s] running install_data
+[1.317s] copying launch/maze_sim.launch.py -> /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/launch
+[1.321s] running install_egg_info
+[1.321s] removing '/home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.322s] Copying ../../build/maze_control/maze_control.egg-info to /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control-0.0.0-py3.10.egg-info
+[1.322s] running install_scripts
+[1.351s] writing list of installed files to '/home/ssq/ros2maze_ws/build/maze_control/install.log'
+[1.383s] Invoked command in '/home/ssq/ros2maze_ws/src/maze_control' returned '0': PYTHONPATH=/home/ssq/ros2maze_ws/build/maze_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_control build --build-base /home/ssq/ros2maze_ws/build/maze_control/build install --record /home/ssq/ros2maze_ws/build/maze_control/install.log --install-scripts $base/lib/maze_control --single-version-externally-managed install_data

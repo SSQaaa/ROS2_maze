@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/maze_control/maze_control.egg-info
+writing ../../build/maze_control/maze_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/maze_control/maze_control.egg-info/dependency_links.txt
+writing entry points to ../../build/maze_control/maze_control.egg-info/entry_points.txt
+writing requirements to ../../build/maze_control/maze_control.egg-info/requires.txt
+writing top-level names to ../../build/maze_control/maze_control.egg-info/top_level.txt
+writing manifest file '../../build/maze_control/maze_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/maze_control/maze_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/maze_control/maze_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssq/ros2maze_ws/build/maze_control/build
+creating /home/ssq/ros2maze_ws/build/maze_control/build/lib
+creating /home/ssq/ros2maze_ws/build/maze_control/build/lib/maze_control
+copying maze_control/__init__.py -> /home/ssq/ros2maze_ws/build/maze_control/build/lib/maze_control
+running install
+running install_lib
+creating /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control
+copying /home/ssq/ros2maze_ws/build/maze_control/build/lib/maze_control/__init__.py -> /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control
+byte-compiling /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ssq/ros2maze_ws/install/maze_control/share/ament_index
+creating /home/ssq/ros2maze_ws/install/maze_control/share/ament_index/resource_index
+creating /home/ssq/ros2maze_ws/install/maze_control/share/ament_index/resource_index/packages
+copying resource/maze_control -> /home/ssq/ros2maze_ws/install/maze_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssq/ros2maze_ws/install/maze_control/share/maze_control
+creating /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/launch
+copying launch/maze_sim.launch.py -> /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/launch
+creating /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/worlds
+copying worlds/straight_maze.world -> /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/worlds
+running install_egg_info
+Copying ../../build/maze_control/maze_control.egg-info to /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ssq/ros2maze_ws/build/maze_control/install.log'

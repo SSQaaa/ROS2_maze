@@ -1,0 +1,5 @@
+  File "/home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/lidar_process.py", line 66
+    提取指定角度区域内的有效距离，并计算中位数。
+                  ^
+SyntaxError: invalid character '，' (U+FF0C)
+
