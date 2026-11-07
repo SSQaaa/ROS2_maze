@@ -2,6 +2,7 @@
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/point_control.py
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/open_loop_control.py
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/__init__.py
+/home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/benchmark_timer.py
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/wall_follow_optimized.py
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/wall_follow.py
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/obstacle_avoidance.py
@@ -9,6 +10,7 @@
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/__pycache__/point_control.cpython-310.pyc
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/__pycache__/open_loop_control.cpython-310.pyc
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/__pycache__/__init__.cpython-310.pyc
+/home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/__pycache__/benchmark_timer.cpython-310.pyc
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/__pycache__/wall_follow_optimized.cpython-310.pyc
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/__pycache__/wall_follow.cpython-310.pyc
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control/__pycache__/obstacle_avoidance.cpython-310.pyc

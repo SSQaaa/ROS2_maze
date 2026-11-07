@@ -10,6 +10,7 @@ setup.py
 ../../build/maze_control/maze_control.egg-info/zip-safe
 launch/maze_sim.launch.py
 maze_control/__init__.py
+maze_control/benchmark_timer.py
 maze_control/lidar_process.py
 maze_control/obstacle_avoidance.py
 maze_control/open_loop_control.py

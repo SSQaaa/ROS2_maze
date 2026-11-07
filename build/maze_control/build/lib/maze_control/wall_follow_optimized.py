@@ -30,7 +30,7 @@ class OptimizedLeftWallFollower(Node):
         # 1. 控制参数
         # ==============================
 
-        self.target_left = 0.4       # 期望左侧墙距（m）
+        self.target_left = 0.8      # 期望左侧墙距（m）
         self.front_danger = 0.35     # 前方危险距离（m）
         self.front_slow = 1.0        # 开始减速的距离（m）
 
