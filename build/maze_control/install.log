@@ -17,8 +17,13 @@
 /home/ssq/ros2maze_ws/install/maze_control/share/ament_index/resource_index/packages/maze_control
 /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/package.xml
 /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/launch/maze_sim.launch.py
+/home/ssq/ros2maze_ws/install/maze_control/share/maze_control/worlds/shape7_maze.world
 /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/worlds/straight_maze.world
+/home/ssq/ros2maze_ws/install/maze_control/share/maze_control/worlds/l_maze.world
+/home/ssq/ros2maze_ws/install/maze_control/share/maze_control/worlds/z_maze.world
 /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/worlds/l2_maze.world
+/home/ssq/ros2maze_ws/install/maze_control/share/maze_control/worlds/u_maze.world
+/home/ssq/ros2maze_ws/install/maze_control/share/maze_control/worlds/s_shape_maze.world
 /home/ssq/ros2maze_ws/install/maze_control/share/maze_control/rviz/maze.rviz
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control-0.0.0-py3.10.egg-info/entry_points.txt
 /home/ssq/ros2maze_ws/install/maze_control/lib/python3.10/site-packages/maze_control-0.0.0-py3.10.egg-info/zip-safe

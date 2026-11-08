@@ -72,7 +72,7 @@ def generate_launch_description():
     world_path = os.path.join(
         maze_pkg,
         'worlds',
-        'l2_maze.world'
+        's_shape_maze.world'
     )
 
     robot_model_path = os.path.join(
@@ -135,7 +135,7 @@ def generate_launch_description():
 
     y_arg = DeclareLaunchArgument(
         'y',
-        default_value='2.0',
+        default_value='1.0',
         description='Robot initial Y position'
     )
 
@@ -176,9 +176,9 @@ def generate_launch_description():
     )
 
     use_wall_follow_optimized_arg = DeclareLaunchArgument(
-    'use_wall_follow_optimized',
-    default_value='false',
-    description='Start optimized left wall following algorithm'
+        'use_wall_follow_optimized',
+        default_value='false',
+        description='Start optimized left wall following algorithm'
     )
 
 

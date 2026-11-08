@@ -15,7 +15,7 @@
   验证：python3 astar_maze.py u_maze 0.0 2.0 8.0 6.0
 -->
 <sdf version="1.6">
-  <world name="">
+  <world name="u_maze">
     <light type="directional" name="sun">
       <pose>0 0 10 0 0 0</pose>
       <diffuse>0.8 0.8 0.8 1</diffuse>

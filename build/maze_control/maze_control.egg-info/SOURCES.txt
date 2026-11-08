@@ -20,4 +20,9 @@ maze_control/wall_follow_optimized.py
 resource/maze_control
 rviz/maze.rviz
 worlds/l2_maze.world
+worlds/l_maze.world
+worlds/s_shape_maze.world
+worlds/shape7_maze.world
 worlds/straight_maze.world
+worlds/u_maze.world
+worlds/z_maze.world

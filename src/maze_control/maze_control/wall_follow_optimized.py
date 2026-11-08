@@ -30,20 +30,20 @@ class OptimizedLeftWallFollower(Node):
         # 1. 控制参数
         # ==============================
 
-        self.target_left = 0.8      # 期望左侧墙距（m）
-        self.front_danger = 0.35     # 前方危险距离（m）
-        self.front_slow = 1.0        # 开始减速的距离（m）
+        self.target_left = 0.8       # 期望左侧墙距（m）
+        self.front_danger = 0.5     # 前方危险距离（m）
+        self.front_slow = 1.5        # 开始减速的距离（m）
 
         # 线速度参数
-        self.max_v = 0.18            # 最大线速度（m/s）
-        self.min_v = 0.06            # 最小线速度（m/s）
+        self.max_v = 0.5            # 最大线速度（m/s）
+        self.min_v = 0.08            # 最小线速度（m/s）
 
         # 角速度参数
         self.kp = 1.2                # 墙距误差比例系数
-        self.max_w = 0.8             # 最大角速度（rad/s）
+        self.max_w = 1.0             # 最大角速度（rad/s）
 
         # 数据平滑参数
-        self.alpha = 0.3             # 低通滤波系数
+        self.alpha = 0.5             # 低通滤波系数
 
         # 雷达数据
         self.front = float('inf')

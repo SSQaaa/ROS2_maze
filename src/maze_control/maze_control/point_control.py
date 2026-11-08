@@ -3,8 +3,8 @@ import math
 import rclpy
 from rclpy.node import Node
 
-from geometry_msgs.msg import Twist
-from nav_msgs.msg import Odometry
+from geometry_msgs.msg import Twist, PoseStamped
+from nav_msgs.msg import Odometry, Path
 
 
 def normalize_angle(angle):
@@ -22,9 +22,10 @@ class PointControl(Node):
         # =====================================
 
         self.waypoints = [
-            (1.0, 2.0),
-            (1.0, 2.5),
-            (2.0, 2.5),
+            (1.0, 0.0),
+            (1.0, 1.0),
+            (0.0, 1.0),
+            (0.0, 0.0),
         ]
 
         # 当前航点索引
@@ -34,7 +35,7 @@ class PointControl(Node):
         # 2. P 控制参数
         # =====================================
 
-        self.kp_distance = 0.5
+        self.kp_distance = 1.0
         self.kp_angle = 1.5
 
         # 速度限制
@@ -42,7 +43,7 @@ class PointControl(Node):
         self.max_angular_speed = 0.8
 
         # 误差阈值
-        self.distance_tolerance = 0.05
+        self.distance_tolerance = 0.01
         self.angle_tolerance = 0.25
 
         # =====================================
@@ -72,6 +73,17 @@ class PointControl(Node):
             10
         )
 
+        # 轨迹发布器
+        self.path_pub = self.create_publisher(
+            Path,
+            '/trajectory',
+            10
+        )
+
+        # 轨迹消息
+        self.path_msg = Path()
+        self.path_poses = []
+
         # 10Hz 控制循环
         self.timer = self.create_timer(
             0.1,
@@ -100,7 +112,7 @@ class PointControl(Node):
             )
 
     # =====================================
-    # 5. 获取里程计
+    # 5. 获取里程计并记录轨迹
     # =====================================
 
     def odom_callback(self, msg):
@@ -115,6 +127,28 @@ class PointControl(Node):
         cos_yaw = 1.0 - 2.0 * (q.y * q.y + q.z * q.z)
 
         self.yaw = math.atan2(sin_yaw, cos_yaw)
+
+        # =================================
+        # 记录机器人当前位姿
+        # =================================
+
+        pose = PoseStamped()
+
+        # 使用里程计的时间戳和坐标系
+        pose.header = msg.header
+
+        # 保存机器人完整位姿
+        pose.pose = msg.pose.pose
+
+        # 添加到历史轨迹
+        self.path_poses.append(pose)
+
+        # 更新 Path 消息
+        self.path_msg.header = msg.header
+        self.path_msg.poses = self.path_poses
+
+        # 发布轨迹
+        self.path_pub.publish(self.path_msg)
 
     # =====================================
     # 6. P 控制与航点切换
