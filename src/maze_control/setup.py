@@ -33,8 +33,8 @@ setup(
         ),
 
         (
-        os.path.join('share', 'maze_control', 'rviz'),
-        glob('rviz/*')
+            os.path.join('share', package_name, 'rviz'),
+            glob('rviz/*')
         ),
     ],
 

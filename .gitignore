@@ -1,1 +1,19 @@
-log/*
+# ROS 2 build and runtime outputs
+/build/
+/install/
+/log/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local experiment outputs
+/results/
+
+# Local editor settings and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

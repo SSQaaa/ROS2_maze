@@ -21,6 +21,7 @@
     <depend>rclpy</depend>
     <depend>sensor_msgs</depend>
     <depend>geometry_msgs</depend>
+    <depend>nav_msgs</depend>
 
     <!-- Launch 相关依赖 -->
     <exec_depend>gazebo_ros</exec_depend>
@@ -34,12 +35,6 @@
     <exec_depend>launch</exec_depend>
     <exec_depend>launch_ros</exec_depend>
     <exec_depend>ament_index_python</exec_depend>
-
-    <!-- Gazebo Classic 相关依赖 -->
-    <exec_depend>gazebo_ros</exec_depend>
-
-    <!-- TurtleBot3 官方模型 -->
-    <exec_depend>turtlebot3_gazebo</exec_depend>
 
     <!-- 测试依赖 -->
     <test_depend>ament_copyright</test_depend>
